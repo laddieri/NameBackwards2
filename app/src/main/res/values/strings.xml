@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Name Backwards</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_name">Name Backwards</string>
+    <string name="share_message">My name spelled backwards is \"</string>
+    <string name="share_message2">\". Cool, huh?</string>
+    <string name="share_menu_text">Share to...</string>
+</resources>

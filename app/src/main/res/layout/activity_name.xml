@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.development.laddieri.namebackwards.NameActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ynImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/yourname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adam Ladd"
+        android:id="@+id/backwardsText"
+        android:textSize="45dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/ynImage"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Another Name!"
+        android:id="@+id/tryAgainButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:textColor="#FF0b5394"
+        android:layout_toLeftOf="@+id/share_button"
+        android:layout_toStartOf="@+id/share_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cool, huh?"
+        android:id="@+id/textView"
+        android:layout_below="@+id/backwardsText"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FF0b5394"
+        android:background="@android:color/white"/>
+</RelativeLayout>
