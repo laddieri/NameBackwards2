@@ -33,5 +33,6 @@
         android:layout_above="@+id/nameButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:hint="Enter Your First and Last Name Here"/>
+        android:hint="Enter Your First and Last Name Here"
+        android:inputType="textPersonName"/>
 </RelativeLayout>
