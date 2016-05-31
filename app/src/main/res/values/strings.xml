@@ -7,4 +7,6 @@
     <string name="share_message">My name spelled backwards is \"</string>
     <string name="share_message2">\". Cool, huh?</string>
     <string name="share_menu_text">Share to...</string>
+    <string name="button_text">Turn It Around!</string>
+    <string name="hint_text">Enter Your First and Last Name Here Please</string>
 </resources>

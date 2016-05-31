@@ -13,18 +13,20 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:src="@drawable/main_title"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:contentDescription="Main Artwork" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Turn It Around!"
+        android:text="@string/button_text"
         android:id="@+id/nameButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@android:color/white"
-        android:textColor="#FF0b5394"/>
+        android:textColor="#FF0b5394"
+        android:contentDescription="Name button" />
 
     <EditText
         android:layout_width="match_parent"
@@ -33,6 +35,7 @@
         android:layout_above="@+id/nameButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:hint="Enter Your First and Last Name Here"
-        android:inputType="textPersonName"/>
+        android:hint="@string/hint_text"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
 </RelativeLayout>
